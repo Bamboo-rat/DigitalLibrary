@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+@layer base {
+}
+
+@layer components {
+  .form {
+    @apply border-2 border-teal-900 rounded-lg w-96 p-8 shadow-2xl;
+  }
+  .text-login {
+    @apply font-bold text-xl text-gray-800;
+  }
+  .input-field {
+    @apply w-full border border-gray-300 rounded-md p-2 mt-1 focus:outline-none focus:ring-2 focus:ring-teal-700 focus:border-transparent;
+  }
+  .btn-signin {
+    @apply w-full bg-teal-700 text-white py-2 rounded-md hover:bg-teal-800 transition;
+  }
+  .social-icon {
+    @apply text-2xl cursor-pointer hover:scale-110 transition-transform;
+  }
+}
